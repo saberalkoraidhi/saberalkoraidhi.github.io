@@ -1,0 +1,27 @@
+body,html{
+	margin: 0;
+	padding: 0;
+	font-family: arial,san-serif;
+}
+*,*:before,*:after{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box; 
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 30em;
+}
+h1{
+	font-size: 30px;
+}
+.text{
+	margin-top: 10px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 20px;
+}
